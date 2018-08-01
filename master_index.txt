@@ -1,0 +1,23 @@
+Numpy
+
+import numpy as np
+
+np.array() - Create Array
+np.arange(#,#) or np.arange(#,#,#) - evenly spaced values within a given interval
+np.zeros(#) or np.zeros((#,#)) - zeros matrix
+np.ones(#) or np.ones((#,#)) - ones matrix
+np.linspace(0,10,50) - Return evenly spaced numbers over a specified interval
+np.eye(4) - identiy matrix
+np.random.rand(2) or np.random.rand(2,2) - random samples from uniform distribution
+np.random.randn(2) or np.random.randn(3,4) - random samples from standard normal distribution
+np.randint(1,100) or np.randint(1,100,10) - random ints from low bound to high bound
+
+arr = np.arange(25)
+
+arr.reshape(5,5) - reshape contents of array
+arr.max() - max element of array
+arr.argmax() - find the index of the max value
+arr.min() - min element of array
+arr.argmin() - index of min element
+arr.shape  - dimensions of the array
+arr.dtype - datatype of array
